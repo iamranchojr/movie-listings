@@ -1,0 +1,29 @@
+.movie-listings {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 40px;
+
+  .heading {
+    text-align: center;
+  }
+
+  .movie-list {
+    margin-top: 20px;
+  }
+
+  .loader-div {
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+
+  .error {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .footer {
+    margin-bottom: 40px;
+  }
+}

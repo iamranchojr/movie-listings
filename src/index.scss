@@ -1,0 +1,11 @@
+// import carbon styles
+@import "~carbon-components/scss/globals/scss/styles.scss";
+@import "~carbon-components/scss/globals/grid/grid";
+
+body {
+  margin: 0;
+  font-family: "Axiforma Regular", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
