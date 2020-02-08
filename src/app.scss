@@ -1,3 +1,30 @@
+.bx--text-input,
+.bx--search-input,
+.bx--select-input {
+  height: 55px !important;
+  font-size: 16px;
+  color: #565656;
+  background-color: #fff;
+  border-bottom: 1px solid #aab0c6;
+
+  &:focus,
+  &:active {
+    outline: 2px solid #164d9d;
+  }
+
+  &::placeholder {
+    color: #aab0c6;
+  }
+}
+
+[data-invalid~="true"] {
+  outline: 2px solid red !important;
+}
+
+[data-invalid~="false"] {
+  outline: 2px solid #164d9d !important;
+}
+
 /* MARGINS */
 .mb-10 {
   margin-bottom: 10px;
